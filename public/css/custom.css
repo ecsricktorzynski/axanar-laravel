@@ -1,0 +1,396 @@
+/**
+ * Customizations
+ */
+
+a, a:active, a:focus, a:hover {
+    text-decoration: none;
+}
+
+section#axanar-support {
+    border-top: 1px solid #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-heading {
+    font-family: 'SerpentineStd-Light', sans-serif !important;
+}
+
+section.login i.fa, h2.site-heading i.fa, .alert h4 i.fa {
+    margin-right: 8px;
+}
+
+button i.fa {
+    margin-right: 8px;
+}
+
+h3.sub-header {
+    font-weight: bold;
+}
+
+h4.panel-title i.fa {
+    margin-right: 8px;
+}
+
+.panel-heading .accordion-toggle {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.panel-body p {
+    font-size: 15px;
+}
+
+h3.sub-header a {
+    text-decoration: none;
+    color: #666;
+}
+
+.site-content.site-section {
+    padding-bottom: 10px;
+    min-height: 500px
+}
+
+.site-section {
+    padding: 20px 0 0;
+}
+
+.site-block {
+    margin-bottom: 20px;
+}
+
+.site-heading {
+    margin: 0;
+}
+
+h2.site-heading {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+h2 i.fa {
+    vertical-align: top;
+    opacity: .8;
+}
+
+.site-section-top {
+    padding-top: 75px;
+}
+
+
+/**
+ * Fonts
+ */
+
+.serpent-light {
+    font-family: 'SerpentineStd-Light', sans-serif !important;
+}
+
+.serpent-yellow {
+    font-family: 'SerpentineStd-Medium', sans-serif !important;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffaa;
+}
+
+.serpent-white {
+    font-family: 'SerpentineStd-Light', sans-serif !important;
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffff;
+}
+
+.ares-text {
+    color: #ffffaa;
+    font-family: 'SerpentineStd-Medium', sans-serif !important;
+}
+
+.site-section-top h3.text-center.serpent-white {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.site-section-top h1.serpent-yellow {
+    margin-bottom: 0;
+}
+
+.bigger-text, .bigger-text p {
+    font-size: 18px !important;
+}
+
+.giant-text {
+    font-size: 20px;
+}
+
+.heading-bottom-border {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+}
+
+.perks-span {
+    background-color: #efefef;
+    color: #999;
+}
+
+.perks-span th:first-child {
+    border-left: none;
+}
+
+.perks-span th {
+    border-bottom: none !important;
+}
+
+tr.perks-span {
+    font-size: 11px;
+    border-left: none;
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 12px;
+}
+
+tr.unbordered-top th {
+    border-top: none !important;
+}
+
+.perks-table tr th {
+    background-color: #efefef !important;
+}
+
+.perks-table tr th {
+    color: #666666 !important;
+}
+
+.form-group-link {
+    margin-left: 5px;
+}
+
+.table.active-projects td a {
+    text-decoration: none;
+}
+
+.active-projects tr td h4 {
+    margin-bottom: 0;
+}
+
+.active-projects .donor-stats {
+    margin-top: 6px;
+}
+
+.donor-stats a {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 10px;
+}
+
+.platform-icon {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.link-icon {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.project-icon {
+    border: 1px solid #efefef;
+    width: 128px;
+    padding: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.perks-mini {
+    text-align: center !important;
+}
+
+.perks-mini .perk-tag {
+    width: 24px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+.perks-mini .perks-legend td {
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 8px;
+    vertical-align: text-bottom;
+}
+
+.perks-mini .perks-legend td .fa {
+    font-size: 18px;
+}
+
+.perks-legend .available {
+    color: #3498db;
+}
+
+.perks-legend .pending {
+    color: #e67e22;
+}
+
+.perks-legend .complete {
+    color: #27ae60;
+}
+
+.perk-personalization tbody tr td {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.perk-personalization tbody tr td:first-child {
+    width: 75px;
+}
+
+.perk-personalization tbody tr td:nth-child(2) {
+    width: 150px;
+}
+
+h4.page-header {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.vertical-legend a, .vertical-legend a:active, .vertical-legend a:visited, .vertical-legend a:focus {
+    color: #1a1a1a;
+}
+
+.vertical-legend a:hover {
+    color: #2b3b6a;
+}
+
+.perk-tag {
+    cursor: default;
+}
+
+.dark-mode {
+    color: white;
+}
+
+.site-content.site-section .form-horizontal {
+    margin-top: 36px;
+    margin-bottom: 66px;
+
+}
+
+section#axanar-email-support {
+    margin-top: 25px;
+}
+
+label.age_agree {
+    font-size: 15px;
+}
+
+.status-download {
+    cursor: pointer;
+}
+
+.status-pending {
+    cursor: not-allowed;
+    font-variant: small-caps;
+    font-size: 10pt;
+    text-transform: lowercase;
+}
+
+
+.tiny-icon {
+    font-size: 11px !important;
+    vertical-align: text-top;
+}
+
+.popover {
+    max-width: 400px;
+}
+
+.donate-now {
+
+}
+
+.donate-now-image {
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.donate-now.header-scroll .donate-now-image img {
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.5s;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    opacity: 0.10;
+}
+
+.donate-now p {
+    font-size: 21px;
+    color: white;
+    line-height: 21px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.donate-now p small {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.donate-now-image img {
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.5s;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    opacity: 0.90;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: pulse 6s infinite;
+    -webkit-animation: pulse 6s infinite;
+    -moz-animation: pulse 6s infinite;
+}
+
+.donate-now-image img:hover {
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: 0.5s;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    -moz-transition-property: opacity;
+    -moz-transition-duration: 0.5s;
+    opacity: 1.0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.list-group-item {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.panel-group .panel.member-details {
+    margin-bottom: 20px
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #38c172
+}
+
+.panel-highlight.active {
+    background-color: #030;
+    border-color: #aed248;
+}
+

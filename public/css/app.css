@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'SerpentineStd-Medium';
+    src: url('/fonts/SerpentineStd-Medium.eot_%23iefix') format('embedded-opentype'), url('/fonts/SerpentineStd-Medium.otf') format('opentype'), url('/fonts/SerpentineStd-Medium.woff') format('woff'), url('/fonts/SerpentineStd-Medium.ttf') format('truetype'), url('/fonts/SerpentineStd-Medium.svg%23SerpentineStd-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SerpentineStd-Light';
+    src: url('/fonts/SerpentineStd-Light.eot_%23iefix') format('embedded-opentype'), url('/fonts/SerpentineStd-Light.otf') format('opentype'), url('/fonts/SerpentineStd-Light.woff') format('woff'), url('/fonts/SerpentineStd-Light.ttf') format('truetype'), url('/fonts/SerpentineStd-Light.svg%23SerpentineStd-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url('/fonts/PlayfairDisplay-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Black';
+    src: url('/fonts/PlayfairDisplay-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-BlackItalic';
+    src: url('/fonts/PlayfairDisplay-BlackItalic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('/fonts/PlayfairDisplay-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-BoldItalic';
+    src: url('/fonts/PlayfairDisplay-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*noinspection CssInvalidPseudoSelector*/
+video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+    -webkit-appearance: none;
+}
+
+.page-title {
+    text-shadow: 2px 2px 4px #000000;
+    color: #ffffaa;
+    font-family: 'SerpentineStd-Light', serif !important;
+}
+
+.pew-pew {
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    border: 0;
+}
+
+.spacer-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
